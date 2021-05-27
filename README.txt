@@ -1,4 +1,6 @@
-Source Code - This directory contains all the code to generate data and the scripts to sort in python, c, and bash
+SourceCode - This directory contains all the code to generate data and the scripts to sort in python, c, and bash
+
+Pics - This direcotry contains the bar graphs created from graph.py
 
 Report.pdf - This file contains my answers to all the questions described in the instructions pdf
 
@@ -60,3 +62,15 @@ Example Output:
 15619
 17077
 Sort in C took 0.000002 seconds to execute 
+
+
+graph.py - this file graphs the output from sorting 1000, 100000, 10000000 records. The timings are graphed. These values must all be mannually inputed into the file.
+In this file I create three Bar graphs in order to depict the sorts for the three times. Since there was a significant magnitude between the number
+of records and times, I decided to create a bar graph for each individual record test. So, the python script generates three bar graphs. To view the next graph, a user must
+close the tab of the bar graph that is displayed (I use plt.show which generates a window of the graph created). 
+
+Example Run:
+python graph.py
+
+Example Output:
+All three graphs can be seen in the Pics direcotry.
