@@ -9,7 +9,6 @@ int compare (const void * a, const void * b)
 }
 
 int main(void){
-    printf("before loop");
     FILE *f = fopen("sample.txt", "r");    
     char *line = NULL;
     size_t len = 0;
