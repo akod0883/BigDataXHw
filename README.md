@@ -1,4 +1,8 @@
 # BigDataXHw
+
+## Motivation
+This repo contains my solutions to the HW provided by the [BigDataX REU program](http://datasys.cs.iit.edu/grants/BigDataX/) to prepare its participants for a Summer of research in big data computing. 
+
 `SourceCode` - This directory contains all the code to generate data and the scripts to sort in python, c, and bash
 
 `Pics/` - This direcotry contains the bar graphs created from graph.py
